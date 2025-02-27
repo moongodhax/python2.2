@@ -1,0 +1,19 @@
+{
+  "name": "mkdocs-custom-theme",
+  "version": "1.0.0",
+  "description": "A custom theme for MkDocs",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx postcss custom_theme/main.css -o custom_theme/main.min.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "cssnano": "^5.0.6",
+    "postcss": "^8.3.6"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "postcss-cli": "^11.0.0"
+  }
+}
